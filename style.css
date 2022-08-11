@@ -3,6 +3,9 @@
     transition: 0.3s all;
     font-weight: 600;
 }
+body{
+    background-color: bisque;
+}
 #app{
     width: 200px;
     box-shadow: 0 3px 15px grey;
