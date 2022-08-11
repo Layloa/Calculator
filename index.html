@@ -9,6 +9,8 @@
     <title>Document</title>
 </head>
 <body>
+    <center>
+    <h1>Calculator</h1>
     <div id="app">
         <div class="grid">
             <input @keyup.enter="calc()" type="text" v-model="result" placeholder="0">
@@ -18,6 +20,7 @@
             <button @click="calc()" class="cell op">=</button>
         </div>
     </div>
+</center>
 </body>
 <script src="script.js"></script>
 </html>
